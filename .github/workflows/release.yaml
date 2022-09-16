@@ -32,5 +32,4 @@ jobs:
           charts_dir: src/helm
         env:
           CR_TOKEN: "${{ secrets.TOKEN }}"
-          #CR_PACKAGE_PATH: "./"
           CR_SKIP_EXISTING: false
