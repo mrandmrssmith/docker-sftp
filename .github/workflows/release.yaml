@@ -29,7 +29,7 @@ jobs:
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.0
         with:
-          charts_dir: src/helm/sftp
+          charts_dir: src/helm
         env:
           CR_TOKEN: "${{ secrets.TOKEN }}"
           CR_PACKAGE_PATH: "./"
