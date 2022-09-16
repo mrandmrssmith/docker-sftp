@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  sftp:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-09-16T12:09:58.438408782Z"
+    description: A Helm chart to deploy SFTP
+    digest: 9db519eda8c8d1671595aeabb1cc1f67c3d0e7204c658349c1ba245813b561c6
+    home: https://github.com/EmberStack/docker-sftp
+    icon: https://raw.githubusercontent.com/EmberStack/CDN/master/Projects/docker-sftp/openssh.png
+    keywords:
+    - sftp
+    - openssh
+    - files
+    - storage
+    - ftp
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: sftp
+    sources:
+    - https://github.com/EmberStack/docker-sftp
+    type: application
+    urls:
+    - https://github.com/mrandmrssmith/docker-sftp/releases/download/sftp-0.1.0/sftp-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-16T12:09:58.438414082Z"
