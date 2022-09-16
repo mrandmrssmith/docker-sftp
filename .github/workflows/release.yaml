@@ -32,3 +32,4 @@ jobs:
           charts_dir: ./src/helm/sftp
         env:
           CR_TOKEN: "${{ secrets.TOKEN }}"
+          CR_PACKAGE_PATH: "./"
