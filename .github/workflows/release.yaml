@@ -33,4 +33,4 @@ jobs:
         env:
           CR_TOKEN: "${{ secrets.TOKEN }}"
           CR_PACKAGE_PATH: "./"
-          CR_SKIP_EXISTING: true
+          CR_SKIP_EXISTING: false
